@@ -111,7 +111,7 @@ HTML Error Page Here
 </nav>
 
     <main id='main-wrapper' itemprop='mainContentOfPage' itemscope='itemscope' itemtype='http://schema.org/Blog' role='main'>
-     <b:section class='index' id='index' name='#index' showaddelement='true' version='3'>
+     <b:section class='view' cond='data:view.isPost' id='view' name='#isPost' showaddelement='true' version='3'>
        <b:widget id='Blog1' locked='false' title='Postingan Blog' type='Blog' version='3' visible='true'>
          <b:widget-settings>
            <b:widget-setting name='showDateHeader'>false</b:widget-setting>
